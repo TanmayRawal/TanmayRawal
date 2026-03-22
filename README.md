@@ -9,6 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tanmay-rawal-10b0a7278)
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=00e5ff)](https://tanmayrawal.github.io)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&to=23DEC511@lnmiit.ac.in)
+
 <img src="https://komarev.com/ghpvc/?username=TanmayRawal&color=00e5ff&style=flat-square&label=PROFILE+VIEWS" />
 
 </div>
