@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Tanmay%20Rawal&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Edge%20AI%20%E2%9C%95%20Neuroimaging%20%E2%9C%95%20FPGA%20Deployment&descAlignY=60&descSize=18&descColor=a8d8ea" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Tanmay%20Rawal&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Edge%20AI%20%E2%9C%95%20Agentic%20AI%20%E2%9C%95%20Neuroimaging%20%E2%9C%95%20FPGA%20Deployment&descAlignY=60&descSize=16&descColor=a8d8ea" width="100%"/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=00E5FF&center=true&vCenter=true&random=false&width=600&lines=Building+AI+that+runs+on+real+hardware.;CNN+%E2%86%92+Quantization+%E2%86%92+FPGA+%E2%86%92+Clinic.;98.8%25+accuracy.+0.3%25+drop+to+INT8.+Live+inference.;Rank+54+%2F+1%2C200%2B+teams+%40+Nokia+FPGA+Hackathon.;Published+%40+IHCIC+2025.+Under+review+%40+ISVLSI+2026.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=00E5FF&center=true&vCenter=true&random=false&width=700&lines=Building+AI+that+runs+on+real+hardware.;Building+AI+that+thinks+with+real+tools.;CNN+%E2%86%92+INT8+%E2%86%92+FPGA+%E2%86%92+Clinic.+No+cloud.;RAG+%E2%86%92+FastMCP+%E2%86%92+Claude+Desktop.+Live+tool-use.;Rank+54+%2F+1%2C200%2B+teams+%40+Nokia+FPGA+Hackathon.;Published+%40+IHCIC+2025.+Under+review+%40+ISVLSI+2026.)](https://git.io/typing-svg)
 
 <br/>
 
@@ -23,7 +23,7 @@ class TanmayRawal:
     def __init__(self):
         self.institution  = "LNMIIT Jaipur — B.Tech-M.Tech ECE (2023–2028)"
         self.rank         = "#1 in Dual Degree Cohort"
-        self.research     = "Clinical AI · Neuroimaging · Edge Deployment"
+        self.research     = "Clinical AI · Neuroimaging · Edge Deployment · Agentic AI"
         self.publications = {
             "IHCIC 2025"  : "INSIGHT-BRAIN — Published ✓  [First Author]",
             "ISVLSI 2026" : "HW-Aware CNN Deployment — Under Review [Co-Author]"
@@ -35,16 +35,20 @@ class TanmayRawal:
             "CNN ensembles on medical imaging datasets",
             "XAI pipelines a clinician would actually trust",
             "INT8 quantized models on FPGA via Vitis AI",
-            "RAG systems + LLM tool-use agents",
+            "RAG pipelines + LLM tool-use agents via MCP",   # ← Agentic
+            "MCP servers that plug AI into real workflows",   # ← Agentic
         ]
 
-    def end_goal(self):
-        return "One device. No cloud. Real-time neuro diagnostics at point of care."
+    def two_frontiers(self):
+        return {
+            "Edge AI"    : "One device. No cloud. Real-time neuro diagnostics at point of care.",
+            "Agentic AI" : "One pipeline. PDF in. Claude Desktop calling it as a live tool out.",
+        }
 ```
 
 <br/>
 
-## 🔬 Research
+## 🔬 Research & Projects
 
 <table width="100%">
 <tr>
@@ -53,10 +57,10 @@ class TanmayRawal:
 ### 🧠 INSIGHT-BRAIN
 > **Published · IHCIC 2025 · First Author**
 
-XAI framework for brain tumor MRI. Three CNNs, three interpretability methods — paired to what they do best:
+XAI framework for brain tumor MRI. Three CNNs, three interpretability methods:
 
 - **InceptionV3** + Grad-CAM → spatial heatmaps
-- **Xception** + LIME → feature attribution  
+- **Xception** + LIME → feature attribution
 - **EfficientNetB0** + SHAP → global contributions
 
 Benchmarked against **fidelity, stability, and consistency** — because a clinician needs explanations that don't contradict each other.
@@ -70,12 +74,12 @@ Benchmarked against **fidelity, stability, and consistency** — because a clini
 ### ⚡ Hardware-Aware CNN Deployment
 > **Under Review · ISVLSI 2026**
 
-Extends INSIGHT-BRAIN to real hardware. The full pipeline:
+Extends INSIGHT-BRAIN to real hardware:
 
 ```
 Docker → Vitis AI → INT8 Quant
 → .xmodel → PYNQ-ZU FPGA
-→ Real-time inference
+→ Real-time inference ✓
 ```
 
 FP32 → INT8 with **< 0.3% accuracy loss**. No server. No cloud. Runs on the device.
@@ -91,7 +95,7 @@ FP32 → INT8 with **< 0.3% accuracy loss**. No server. No cloud. Runs on the de
 ### 🧬 Alzheimer's MRI Classification
 > **Project · FPGA Deployed**
 
-ResNet50 for multi-class Alzheimer's staging on Zynq UltraScale+. Hardware efficiency validated for clinical deployment constraints.
+ResNet50 for multi-class Alzheimer's staging on Zynq UltraScale+ via Vitis AI.
 
 | Metric | Result |
 |--------|--------|
@@ -107,20 +111,21 @@ ResNet50 for multi-class Alzheimer's staging on Zynq UltraScale+. Hardware effic
 <td width="50%" valign="top">
 
 ### 🤖 RAG + MCP Knowledge Assistant
-> **Deployed · Streamlit Cloud**
+> **⚡ Agentic AI · Deployed · Streamlit Cloud**
 
-Full agentic pipeline — from raw PDFs to Claude Desktop calling it as a live tool:
+Full agentic pipeline — raw PDFs to Claude Desktop as a live tool:
 
 ```
 PDF → PyMuPDF → Sentence Transformers
 → FAISS → Groq LLaMA 3.3 70B
-→ FastMCP Server → Claude Desktop
+→ FastMCP Server → Claude Desktop ✓
 ```
 
-Built and deployed in a single day.
+**Built and deployed in a single day.** This is the architecture pattern for production agentic AI systems — semantic retrieval + grounded generation + MCP tool-use.
 
 ![Status](https://img.shields.io/badge/Status-Live-00e5ff?style=flat-square)
 ![Model](https://img.shields.io/badge/LLM-LLaMA%203.3%2070B-orange?style=flat-square)
+![Agentic](https://img.shields.io/badge/Agentic-MCP%20Tool--Use-00ff88?style=flat-square)
 
 </td>
 </tr>
@@ -157,13 +162,18 @@ Built and deployed in a single day.
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
-**LLM & Agents**
+**Agentic AI & LLM Systems**
 
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+```
+RAG Pipelines  ·  MCP Tool-Use  ·  FastMCP  ·  FAISS  ·  Groq  ·  LLaMA 3.3 70B
+Sentence Transformers  ·  PyMuPDF  ·  Semantic Retrieval  ·  LLM Grounding
+```
 
 **Edge AI & Hardware**
 
