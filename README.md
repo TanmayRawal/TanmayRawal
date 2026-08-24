@@ -1,219 +1,100 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Tanmay%20Rawal&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Edge%20AI%20%E2%9C%95%20Agentic%20AI%20%E2%9C%95%20Neuroimaging%20%E2%9C%95%20FPGA%20Deployment&descAlignY=60&descSize=16&descColor=a8d8ea" width="100%"/>
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=00E5FF&center=true&vCenter=true&random=false&width=700&lines=Building+AI+that+runs+on+real+hardware.;Building+AI+that+thinks+with+real+tools.;CNN+%E2%86%92+INT8+%E2%86%92+FPGA+%E2%86%92+Clinic.+No+cloud.;RAG+%E2%86%92+FastMCP+%E2%86%92+Claude+Desktop.+Live+tool-use.;Rank+54+%2F+1%2C200%2B+teams+%40+Nokia+FPGA+Hackathon.;Published+%40+IHCIC+2025.+Under+review+%40+ISVLSI+2026.)](https://git.io/typing-svg)
+# Tanmay Rawal
 
-<br/>
+### ML / AI Research Engineer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tanmay-rawal-10b0a7278)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=00e5ff)](https://tanmayrawal.github.io)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&to=23DEC511@lnmiit.ac.in)
+**Production ML · Computer Vision · Edge AI · GenAI Systems · FPGA Acceleration**
 
-<img src="https://komarev.com/ghpvc/?username=TanmayRawal&color=00e5ff&style=flat-square&label=PROFILE+VIEWS" />
+<br />
+
+[![Portfolio](https://img.shields.io/badge/EXPLORE_PORTFOLIO-c8ff66?style=for-the-badge&labelColor=07110f)](https://tanmayrawal.github.io/)
+[![Resume](https://img.shields.io/badge/VIEW_RESUME-f2f0e9?style=for-the-badge&labelColor=07110f)](https://tanmayrawal.github.io/Tanmay-Rawal-Resume.pdf)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-4f7cff?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanmay-rawal-10b0a7278/)
+[![Email](https://img.shields.io/badge/EMAIL-9f7aea?style=for-the-badge&logo=gmail&logoColor=white)](mailto:23DEC511@lnmiit.ac.in)
 
 </div>
 
-<br/>
+<br />
 
-## ⚡ About
+<a href="https://tanmayrawal.github.io/">
+  <img src="https://raw.githubusercontent.com/TanmayRawal/tanmayrawal.github.io/main/public/og.png" alt="Tanmay Rawal — ML and AI Research Engineer portfolio" width="100%" />
+</a>
 
-```python
-class TanmayRawal:
-    def __init__(self):
-        self.institution  = "LNMIIT Jaipur — B.Tech-M.Tech ECE (2023–2028)"
-        self.rank         = "#1 in Dual Degree Cohort"
-        self.research     = "Clinical AI · Neuroimaging · Edge Deployment · Agentic AI"
-        self.publications = {
-            "IHCIC 2025"  : "INSIGHT-BRAIN — Published ✓  [First Author]",
-            "ISVLSI 2026" : "HW-Aware CNN Deployment — Under Review [Co-Author]"
-        }
-        self.achievement  = "Rank 54 / 1,200+ teams — Nokia FPGA Hackathon"
+## Research profile
 
-    def what_i_build(self):
-        return [
-            "CNN ensembles on medical imaging datasets",
-            "XAI pipelines a clinician would actually trust",
-            "INT8 quantized models on FPGA via Vitis AI",
-            "RAG pipelines + LLM tool-use agents via MCP",   # ← Agentic
-            "MCP servers that plug AI into real workflows",   # ← Agentic
-        ]
+I build machine-learning systems that have to work beyond the notebook: forecasting pipelines used under operational constraints, interpretable medical-imaging models, quantized neural networks running on FPGA hardware, and evidence-grounded multi-agent workflows.
 
-    def two_frontiers(self):
-        return {
-            "Edge AI"    : "One device. No cloud. Real-time neuro diagnostics at point of care.",
-            "Agentic AI" : "One pipeline. PDF in. Claude Desktop calling it as a live tool out.",
-        }
-```
+I am pursuing an integrated **B.Tech–M.Tech in Electronics and Communication Engineering at LNMIIT, Jaipur**, where I am ranked **#1 in the Integrated Dual Degree program**. My research interests sit at the intersection of **trustworthy AI, efficient inference, computer vision, ML systems, and intelligent workflows**.
 
-<br/>
+> My test for useful research: **Can it be measured? Can it be explained? Can it run where it matters?**
 
-## 🔬 Research & Projects
+## Impact at a glance
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+| Production forecasting | Efficient inference | Medical AI | Research |
+|:---:|:---:|:---:|:---:|
+| **0.92% MAPE** | **13.9× CPU speedup** | **98.8% accuracy** | **2 papers** |
+| 5-minute demand forecast | FPGA-accelerated CNN | Brain-tumor MRI ensemble | Published + accepted |
 
-### 🧠 INSIGHT-BRAIN
-> **Published · IHCIC 2025 · First Author**
+## Selected research and systems
 
-XAI framework for brain tumor MRI. Three CNNs, three interpretability methods:
+| Project | What I built | Evidence |
+|---|---|---|
+| [**India-wide power-demand forecasting**](https://github.com/TanmayRawal/India_Power_Demand_forcaster) | Multi-horizon XGBoost pipeline for power-trading decisions across Indian states and union territories. | **0.92% MAPE** · 340K+ records · four horizons · 288-block forecast in under 2.5 s |
+| [**Interpretable brain-tumor classification**](https://github.com/TanmayRawal/Brain-Tumor-MRI-Classification-Using-Ensemble-CNN-XAI-and-Hardware-Accelerated-Edge-Deployment) | Weighted CNN ensemble with Grad-CAM, SHAP, and LIME, followed by INT8 deployment on PYNQ-ZU. | **98.8% accuracy** · 7,421 MRI scans · within 0.3% of FP32 after quantization |
+| [**Real-time Alzheimer’s staging on FPGA**](https://github.com/TanmayRawal/Alzheimer-Classification-Using-Hardware-Accelerated-CNN-on-PYNQ-ZU-FPGA-with-Arm-Processor) | INT8 ResNet50 inference pipeline compiled for the DPUCZDX8G accelerator. | **98.4 FPS** · 10.15 ms latency · **13.9×** CPU speedup · zero CPU fallback |
+| [**ResolveAI**](https://github.com/TanmayRawal/ResolveAI) | Four-agent RAG workflow for evidence retrieval, resolution design, citation validation, and policy compliance. | **100% compliant** on a 23-ticket benchmark · 100% citation coverage · MCP interface |
+| [**AES-128 hardware accelerator**](https://github.com/TanmayRawal/AES128-hardware-accelerator) | FIPS-197-compliant CTR-mode encryption IP integrated with a MicroBlaze SoC. | 12 cycles per block · AXI4-Lite · timing constraints met · software-reference verification |
 
-- **InceptionV3** + Grad-CAM → spatial heatmaps
-- **Xception** + LIME → feature attribution
-- **EfficientNetB0** + SHAP → global contributions
+## Publications
 
-Benchmarked against **fidelity, stability, and consistency** — because a clinician needs explanations that don't contradict each other.
+### Published · IHCI 2025
 
-![Accuracy](https://img.shields.io/badge/Accuracy-98.8%25-00e5ff?style=flat-square)
-![Dataset](https://img.shields.io/badge/Dataset-7%2C421%20MRI%20scans-blueviolet?style=flat-square)
+**INSIGHT-BRAIN: Interpretable Neural Systems Using Grad-CAM, SHAP, and LIME in Human-Centered Brain Tumor Imaging**<br />
+An explainability-centered framework for making ensemble MRI decisions more transparent to human stakeholders.<br />
+[Read the publication →](https://books.google.co.in/books?id=QFPlEQAAQBAJ&pg=PA301)
 
-</td>
-<td width="50%" valign="top">
+### Accepted · IEEE TENCON 2026
 
-### ⚡ Hardware-Aware CNN Deployment
-> **Under Review · ISVLSI 2026**
+**DPU-Accelerated Alzheimer’s Disease Staging from Brain MRI Using Quantized ResNet50 on PYNQ-ZU**<br />
+Bridging clinical computer vision and deployable edge inference through INT8 quantization and DPU acceleration. Accepted for presentation.
 
-Extends INSIGHT-BRAIN to real hardware:
+## Research experience
 
-```
-Docker → Vitis AI → INT8 Quant
-→ .xmodel → PYNQ-ZU FPGA
-→ Real-time inference ✓
-```
+### Machine Learning Intern · NTPC Ltd. — 2026
 
-FP32 → INT8 with **< 0.3% accuracy loss**. No server. No cloud. Runs on the device.
+- Built and operationalized a four-horizon electricity-demand forecasting pipeline for power-trading decisions.
+- Combined grid telemetry, live weather, autoregressive lags, calendar effects, SQL, and optimized NumPy processing.
+- Delivered national coverage across all Indian states and union territories.
 
-![Accuracy Drop](https://img.shields.io/badge/Accuracy%20Drop-%3C0.3%25-00e5ff?style=flat-square)
-![Platform](https://img.shields.io/badge/Platform-PYNQ--ZU%20FPGA-orange?style=flat-square)
+### Research Intern · LUSIP, LNMIIT — 2025
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+- Developed an interpretable MRI ensemble using EfficientNetB0, InceptionV3, and Xception.
+- Evaluated model explanations with Grad-CAM, LIME, and SHAP.
+- Quantized, compiled, and deployed the pipeline on PYNQ-ZU without GPU or cloud dependency.
 
-### 🧬 Alzheimer's MRI Classification
-> **Project · FPGA Deployed**
+## Technical toolkit
 
-ResNet50 for multi-class Alzheimer's staging on Zynq UltraScale+ via Vitis AI.
+| Area | Technologies |
+|---|---|
+| **Languages & compute** | Python · C++ · SQL · CUDA · VHDL |
+| **Machine learning & AI** | PyTorch · TensorFlow · Scikit-learn · XGBoost · Deep Learning · Computer Vision · Time-Series Forecasting · XAI · Feature Engineering |
+| **GenAI & LLM systems** | RAG · LangChain · CrewAI · FAISS · Hugging Face · Sentence Transformers · Multi-Agent Systems · MCP |
+| **Edge & deployment** | Docker · Linux · Git · ONNX · TensorRT · Vitis AI · PYNQ-ZU · FPGA Acceleration · INT8 Quantization |
+| **Data & applications** | NumPy · Pandas · OpenCV · Streamlit · Django · FastMCP · APScheduler · Gemini · Open-Meteo |
 
-| Metric | Result |
-|--------|--------|
-| Inference | 325ms → **42ms** |
-| Model Size | 13.8MB → **3.5MB** |
-| Power | 3.7W → **2.5W** |
-| Accuracy | **91.14%** retained |
+## Recognition
 
-![Speedup](https://img.shields.io/badge/Speedup-7.7%C3%97-00e5ff?style=flat-square)
-![Compression](https://img.shields.io/badge/Compression-75%25-blueviolet?style=flat-square)
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 RAG + MCP Knowledge Assistant
-> **⚡ Agentic AI · Deployed · Streamlit Cloud**
-
-Full agentic pipeline — raw PDFs to Claude Desktop as a live tool:
-
-```
-PDF → PyMuPDF → Sentence Transformers
-→ FAISS → Groq LLaMA 3.3 70B
-→ FastMCP Server → Claude Desktop ✓
-```
-
-**Built and deployed in a single day.** This is the architecture pattern for production agentic AI systems — semantic retrieval + grounded generation + MCP tool-use.
-
-![Status](https://img.shields.io/badge/Status-Live-00e5ff?style=flat-square)
-![Model](https://img.shields.io/badge/LLM-LLaMA%203.3%2070B-orange?style=flat-square)
-![Agentic](https://img.shields.io/badge/Agentic-MCP%20Tool--Use-00ff88?style=flat-square)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## 🏆 Achievements
-
-<div align="center">
-
-| 🥇 | Nokia FPGA Hackathon | **Rank 54 / 1,200+ teams globally** — Top 100 Finalist |
-|:---:|:---|:---|
-| 📄 | IHCIC 2025 | **Published** — INSIGHT-BRAIN · First Author · Paper #277 |
-| 📄 | ISVLSI 2026 | **Under Review** — IEEE CS Symposium on VLSI · Paper #107 |
-| 🎓 | LNMIIT Jaipur | **Rank 1** — Dual Degree Cohort · ECE |
-| 🔬 | LUSIP Research Internship | Brain MRI pipeline · XAI · FPGA deployment |
-
-</div>
-
-<br/>
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Core ML**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-
-**Agentic AI & LLM Systems**
-
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-```
-RAG Pipelines  ·  MCP Tool-Use  ·  FastMCP  ·  FAISS  ·  Groq  ·  LLaMA 3.3 70B
-Sentence Transformers  ·  PyMuPDF  ·  Semantic Retrieval  ·  LLM Grounding
-```
-
-**Edge AI & Hardware**
-
-```
-Vitis AI  ·  FPGA  ·  PYNQ-ZU (Zynq UltraScale+)  ·  INT8 Quantization
-VHDL  ·  Xilinx Vivado  ·  ONNX  ·  Nexys 4 DDR (Artix-7)
-```
-
-</div>
-
-<br/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=TanmayRawal&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9&count_private=true&include_all_commits=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanmayRawal&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00e5ff&text_color=c9d1d9&langs_count=7"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=TanmayRawal&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=00e5ff&ring=00e5ff&fire=ff6b35&currStreakLabel=00e5ff&sideLabels=c9d1d9&dates=5a6a7a&currStreakNum=ffffff&sideNums=ffffff" width="65%"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=TanmayRawal&theme=github-compact&bg_color=0d1117&color=00e5ff&line=00e5ff&point=ff6b35&area=true&hide_border=true" width="100%"/>
-
-</div>
-
-<br/>
-
-<div align="center">
+- **Rank #1** — Integrated Dual Degree Program, LNMIIT Jaipur.
+- **54th among 1,200+ global teams** — Nokia FPGA Hackathon, Top 100 Finalist.
+- **Published at IHCI 2025** and **accepted at IEEE TENCON 2026**.
 
 ---
 
-*"The gap between training an accurate model and deploying one a clinician would trust —*
-*that's where the real research lives."*
+<div align="center">
 
----
+### Building intelligence for the real world.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+[Portfolio](https://tanmayrawal.github.io/) · [GitHub](https://github.com/TanmayRawal) · [LinkedIn](https://www.linkedin.com/in/tanmay-rawal-10b0a7278/) · [Email](mailto:23DEC511@lnmiit.ac.in)
 
 </div>
