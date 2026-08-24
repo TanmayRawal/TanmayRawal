@@ -28,6 +28,12 @@ I work where machine learning meets constrained hardware, human trust, and produ
 
 I am pursuing an integrated **B.Tech–M.Tech in Electronics and Communication Engineering at LNMIIT, Jaipur**, where I am ranked **#1 in the Integrated Dual Degree program**. I have worked as an **ML Intern at NTPC Ltd.** and a **Research Intern at LUSIP, LNMIIT**.
 
+My strongest work tends to connect three layers:
+
+- **Model behavior** — accuracy, robustness, explanation quality, and failure analysis.
+- **System design** — data pipelines, retrieval, orchestration, evaluation, and reproducibility.
+- **Deployment constraints** — latency, quantization, accelerator compatibility, and deterministic execution.
+
 ## Research signal
 
 | **0.92% MAPE** | **13.9× speedup** | **98.8% accuracy** | **98.4 FPS** | **2 papers** |
@@ -51,20 +57,65 @@ I am pursuing an integrated **B.Tech–M.Tech in Electronics and Communication E
 **Published · IHCI 2025**<br />
 [**INSIGHT-BRAIN: Interpretable Neural Systems Using Grad-CAM, SHAP, and LIME in Human-Centered Brain Tumor Imaging**](https://books.google.co.in/books?id=QFPlEQAAQBAJ&pg=PA301)
 
+An explainability-centered framework for making ensemble MRI decisions more transparent to human stakeholders through complementary local and global explanations.
+
 **Accepted · IEEE TENCON 2026**<br />
 **DPU-Accelerated Alzheimer’s Disease Staging from Brain MRI Using Quantized ResNet50 on PYNQ-ZU** — accepted for presentation.
 
-## Technical focus
+This work connects clinical computer vision with deployable edge inference through INT8 quantization, DPU compilation, and accelerator-native execution.
 
-| Learning systems | Efficient inference | Intelligent workflows | Engineering |
-|---|---|---|---|
-| PyTorch · TensorFlow · Scikit-learn · XGBoost · Computer Vision · Time-Series Forecasting · XAI | Vitis AI · PYNQ-ZU · FPGA · INT8 Quantization · ONNX · TensorRT · CUDA | RAG · LangChain · CrewAI · FAISS · Hugging Face · Multi-Agent Systems · MCP | Python · C++ · SQL · VHDL · Docker · Linux · Git · OpenCV · Pandas |
+## Research experience
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<p><strong>2026 · MACHINE LEARNING INTERN</strong></p>
+<h3>NTPC Ltd. · IT Department</h3>
+<p>Built and operationalized a four-horizon electricity-demand forecasting pipeline for power-trading decisions.</p>
+<ul>
+<li>Combined grid telemetry, live weather, autoregressive lags, and calendar effects.</li>
+<li>Engineered 21 predictive features over more than 340K records.</li>
+<li>Optimized the SQL and NumPy pipeline by 12×.</li>
+<li>Delivered coverage for all Indian states and union territories.</li>
+</ul>
+</td>
+<td width="50%" valign="top">
+<p><strong>2025 · RESEARCH INTERN</strong></p>
+<h3>LUSIP · LNMIIT</h3>
+<p>Developed an interpretable MRI ensemble and took it from training to real-time FPGA deployment.</p>
+<ul>
+<li>Combined EfficientNetB0, InceptionV3, and Xception.</li>
+<li>Integrated Grad-CAM, LIME, and SHAP explanations.</li>
+<li>Quantized and compiled the ensemble with Vitis AI.</li>
+<li>Retained accuracy within 0.3% of the FP32 pipeline.</li>
+</ul>
+</td>
+</tr>
+</table>
+
+## Technical toolkit
+
+| Area | Technologies |
+|---|---|
+| **Languages & compute** | Python · C++ · SQL · CUDA · VHDL |
+| **Machine learning & AI** | PyTorch · TensorFlow · Scikit-learn · XGBoost · Deep Learning · Computer Vision · Time-Series Forecasting · XAI · Feature Engineering |
+| **GenAI & LLM systems** | RAG · LangChain · CrewAI · FAISS · Hugging Face · Sentence Transformers · Multi-Agent Systems · MCP |
+| **Edge & deployment** | Docker · Linux · Git · ONNX · TensorRT · Vitis AI · PYNQ-ZU · FPGA Acceleration · INT8 Quantization |
+| **Data & applications** | NumPy · Pandas · OpenCV · Streamlit · Django · FastMCP · APScheduler · Gemini · Open-Meteo |
+
+## Research approach
+
+1. **Start with a measurable baseline.** Define the accuracy, latency, reliability, or compliance target before adding complexity.
+2. **Treat explanation as an engineering requirement.** Use interpretation and validation methods that reveal where a model is right, wrong, or uncertain.
+3. **Design for the target environment.** Quantization, tool constraints, memory, latency, and hardware compatibility belong in the research loop—not after it.
+4. **Report evidence, not only architecture.** Compare against baselines and communicate the result with reproducible metrics.
 
 ## Recognition
 
 - **Rank #1** — Integrated Dual Degree Program, LNMIIT Jaipur.
 - **54th among 1,200+ global teams** — Nokia FPGA Hackathon, Top 100 Finalist.
 - **Published at IHCI 2025** and **accepted at IEEE TENCON 2026**.
+- **Integrated B.Tech–M.Tech, ECE** — The LNM Institute of Information Technology, Jaipur (2023–2028).
 
 ---
 
