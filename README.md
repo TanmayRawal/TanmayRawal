@@ -23,8 +23,6 @@
   <a href="mailto:23DEC511@lnmiit.ac.in"><strong>Email</strong></a>
 </p>
 
-<img src="./assets/profile-divider.svg" width="100%" alt="" />
-
 ## 01 — Profile
 
 I work where machine learning meets constrained hardware, human trust, and production reality. My work spans national-scale power forecasting, interpretable medical imaging, quantized CNN inference on FPGA, and evidence-grounded multi-agent systems.
@@ -51,11 +49,11 @@ My strongest work tends to connect three layers:
 
 | Work | Research question | Evidence |
 |---|---|---|
-| [**India-wide power-demand forecasting**](https://github.com/TanmayRawal/India_Power_Demand_forcaster)<br />![Production ML](https://img.shields.io/badge/PRODUCTION_ML-ffba5c?style=flat-square&labelColor=07110f) | Can multi-horizon demand forecasting remain accurate and fast enough for operational power-trading decisions? | **0.92% MAPE** · 340K+ records · four horizons · 288-block forecast in under 2.5 s |
-| [**Interpretable brain-tumor classification**](https://github.com/TanmayRawal/Brain-Tumor-MRI-Classification-Using-Ensemble-CNN-XAI-and-Hardware-Accelerated-Edge-Deployment)<br />![Trustworthy AI](https://img.shields.io/badge/TRUSTWORTHY_AI-9f7aea?style=flat-square&labelColor=07110f) | Can an accurate MRI ensemble provide complementary explanations without losing deployability? | **98.8% accuracy** · 7,421 scans · Grad-CAM + SHAP + LIME · INT8 within 0.3% of FP32 |
-| [**Real-time Alzheimer’s staging on FPGA**](https://github.com/TanmayRawal/Alzheimer-Classification-Using-Hardware-Accelerated-CNN-on-PYNQ-ZU-FPGA-with-Arm-Processor)<br />![Edge AI](https://img.shields.io/badge/EDGE_AI-4f7cff?style=flat-square&labelColor=07110f) | Can clinical CNN inference run deterministically on constrained hardware without CPU fallback? | **98.4 FPS** · 10.15 ms latency · **13.9×** speedup · 423 DPU operations |
-| [**ResolveAI**](https://github.com/TanmayRawal/ResolveAI)<br />![Agentic AI](https://img.shields.io/badge/AGENTIC_AI-c8ff66?style=flat-square&labelColor=07110f) | Can a multi-agent support workflow remain grounded, cited, and policy-compliant? | **100% compliance** · 100% citation coverage · four agents · MCP interface |
-| [**AES-128 hardware accelerator**](https://github.com/TanmayRawal/AES128-hardware-accelerator)<br />![Hardware](https://img.shields.io/badge/DIGITAL_HARDWARE-ffba5c?style=flat-square&labelColor=07110f) | Can standards-compliant encryption be integrated as a verified, timing-clean SoC peripheral? | 12 cycles per block · AXI4-Lite · 0.236 W · byte-for-byte software verification |
+| [**India-wide power-demand forecasting**](https://github.com/TanmayRawal/India_Power_Demand_forcaster) | Can multi-horizon demand forecasting remain accurate and fast enough for operational power-trading decisions? | **0.92% MAPE** · 340K+ records · four horizons · 288-block forecast in under 2.5 s |
+| [**Interpretable brain-tumor classification**](https://github.com/TanmayRawal/Brain-Tumor-MRI-Classification-Using-Ensemble-CNN-XAI-and-Hardware-Accelerated-Edge-Deployment) | Can an accurate MRI ensemble provide complementary explanations without losing deployability? | **98.8% accuracy** · 7,421 scans · Grad-CAM + SHAP + LIME · INT8 within 0.3% of FP32 |
+| [**Real-time Alzheimer’s staging on FPGA**](https://github.com/TanmayRawal/Alzheimer-Classification-Using-Hardware-Accelerated-CNN-on-PYNQ-ZU-FPGA-with-Arm-Processor) | Can clinical CNN inference run deterministically on constrained hardware without CPU fallback? | **98.4 FPS** · 10.15 ms latency · **13.9×** speedup · 423 DPU operations |
+| [**ResolveAI**](https://github.com/TanmayRawal/ResolveAI) | Can a multi-agent support workflow remain grounded, cited, and policy-compliant? | **100% compliance** · 100% citation coverage · four agents · MCP interface |
+| [**AES-128 hardware accelerator**](https://github.com/TanmayRawal/AES128-hardware-accelerator) | Can standards-compliant encryption be integrated as a verified, timing-clean SoC peripheral? | 12 cycles per block · AXI4-Lite · 0.236 W · byte-for-byte software verification |
 
 <p align="right"><a href="https://tanmayrawal.github.io/#work">Explore the complete case studies →</a></p>
 
@@ -129,12 +127,6 @@ This work connects clinical computer vision with deployable edge inference throu
 - **54th among 1,200+ global teams** — Nokia FPGA Hackathon, Top 100 Finalist.
 - **Published at IHCI 2025** and **accepted at IEEE TENCON 2026**.
 - **Integrated B.Tech–M.Tech, ECE** — The LNM Institute of Information Technology, Jaipur (2023–2028).
-
-<img src="./assets/profile-divider.svg" width="100%" alt="" />
-
-<p align="center">
-  <strong>Can it be measured? Can it be explained? Can it run where it matters?</strong>
-</p>
 
 <p align="center">
   <a href="https://tanmayrawal.github.io/">tanmayrawal.github.io</a>
